@@ -1,7 +1,7 @@
 <template>
   <!-- Post Cards Grid -->
   <div class="row">
-    <div class="col-12 col-md-6 col-lg-4 mb-4" v-for="post in postsArray" :key="post.id">
+    <div class="col-12 col-md-6 col-lg-4 mb-4 " v-for="post in postsArray" :key="post.id">
       <PostCard :post="post" />
     </div>
   </div>
